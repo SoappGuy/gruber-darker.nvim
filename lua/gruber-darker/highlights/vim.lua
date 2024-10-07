@@ -63,7 +63,7 @@ M.highlights.win_separator = Highlight.new("WinSeparator", { fg = c["bg+2"], bol
 ---Line used for closed folds
 M.highlights.folded = Highlight.new("Folded", { fg = c.brown, bg = c["bg+2"], italic = opts.italic.folds })
 ---'foldcolumn'
-M.highlights.fold_column = Highlight.new("FoldColumn", { fg = c.brown, bg = c["bg+2"] })
+M.highlights.fold_column = Highlight.new("FoldColumn", { fg = c.brown, bg = c.bg })
 ---column where |signs| are displayed
 M.highlights.sign_column = Highlight.new("SignColumn", { fg = c["bg+2"], bg = c.none })
 ---SignColumnSB = Highlight.new("SignColumnSB", { bg = c.bg_sidebar, fg = c.fg_gutter }) ---column where |signs| are displayed
