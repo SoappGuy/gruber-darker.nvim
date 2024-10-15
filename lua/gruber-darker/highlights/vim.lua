@@ -189,11 +189,11 @@ M.highlights.conditional = Highlight.new("Conditional", { link = gruber_hl.yello
 ---For, do, while, etc.
 M.highlights.repeats = Highlight.new("Repeat", { link = gruber_hl.yellow_bold })
 ---Case,, etc.
-M.highlights.label = Highlight.new("Label", { link = gruber_hl.fg1 })
+M.highlights.label = Highlight.new("Label", { link = gruber_hl.yellow_bold })
 ---"sizeof", "+", "*", etc.
 M.highlights.operator = Highlight.new("Operator", { fg = c.fg, italic = opts.italic.operators })
 ---Any other keyword
-M.highlights.keyword = Highlight.new("Keyword", { link = gruber_hl.yellow_bold })
+M.highlights.keyword = Highlight.new("Keyword", { link = gruber_hl.fg1 })
 ---Try, catch, throw
 M.highlights.exception = Highlight.new("Exception", { link = gruber_hl.yellow_bold })
 ---(preferred) generic Preprocessor
