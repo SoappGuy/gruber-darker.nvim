@@ -19,6 +19,6 @@ M.highlights["mini-line-command"] = Highlight.new("MiniStatuslineModeCommand", {
 
 M.highlights["mini-diff-sign-add"] = Highlight.new("MiniDiffSignAdd", { fg = c.green })
 M.highlights["mini-diff-sign-change"] = Highlight.new("MiniDiffSignChange", { fg = c.brown })
-M.highlights["mini-diff-sign-delete"] = Highlight.new("MiniDiffSignDelete", { fg = c.wisteria })
+M.highlights["mini-diff-sign-delete"] = Highlight.new("MiniDiffSignDelete", { fg = c["red-1"] })
 
 return M
